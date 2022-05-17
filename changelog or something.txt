@@ -1,0 +1,11 @@
+t = test
+p = public
+
+t0.0.1
+- add a menu with song selecting [done]
+
+
+
+
+planned
+- night mode (lowers the scroll speed by 1.2x and changes the main colors to help you sleep) (probably around 0.2)

@@ -1,0 +1,80 @@
+without compression thing
+F-  0%
+F   52%
+F+  58%
+D-  60%
+D   62%
+D+  68%
+C-  70%
+C   72%
+C+  78%
+B-  80%
+B   82%
+B+  88%
+A-  90%
+A   91%
+A+  94%
+S-  95%
+S   96%
+S+  99%
+SS- 100%
+SS  100.2%
+SS+ 100.8%
+SSS 101%
+
+with compression thing (redundant)
+F-  0.00%
+F   51.49%
+F+  57.43%
+D-  59.41%
+D   61.39%
+D+  67.33%
+C-  69.31%
+C   71.29%
+C+  77.23%
+B-  79.21%
+B   81.19%
+B+  87.13%
+A-  89.11%
+A   90.10%
+A+  93.07%
+S-  94.06%
+S   95.05%
+S+  98.02%
+SS- 99.01%
+SS  99.21%
+SS+ 99.80%
+SSS 100.00%
+
+
+Beginner: 0-5
+Easy: 1-8
+Medium: 1-11
+Hard: 1-15
+Insane: no cap
+Nightmare: no cap
+
+
+hues
+SSS 30
+SS+ 40
+SS  50 (60 without TP)
+SS- 60
+S+  70
+S   80
+S-  90
+A+  105
+A   123
+A-  145
+B+  170
+B   180
+B-  200
+C+  222
+C   250
+C-  288
+D+  314
+D   342
+D-  0
+F+  0 45%
+F   0 40%
+F-  0 35%
