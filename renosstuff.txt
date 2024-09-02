@@ -47,7 +47,7 @@ SS+ 99.80%
 SSS 100.00%
 
 
-Beginner: 0-5
+Beginner: 1-5
 Easy: 1-8
 Medium: 1-11
 Hard: 1-15
@@ -78,3 +78,86 @@ D-  0
 F+  0 45%
 F   0 40%
 F-  0 35%
+
+
+hit windows
+medium and up
+true perfect   16.66ms
+perfect        33.33ms
+great          66.66ms
+good           100ms
+miss(hit)      133.33ms
+miss(nohit)    >133.33ms
+
+beginner and easy
+true perfect   25ms
+perfect        50ms
+great          100ms
+good           140ms
+miss(hit)      180ms
+miss(nohit)    >180ms
+
+
+
+
+
+
+renosR          renosR
+press enter     enterキーを押します
+
+songs           曲
+settings        設定
+
+Beginner        初心者	しょしんしゃ
+Easy            簡単	かんたん
+Medium          普通	ふつう
+Hard            難しい	むずかしい
+Insane          おに
+Nightmare		ナイトメア
+
+truly perfect   トルーリー パーフェクト
+fully perfect   フリー パーフェクト
+fully great     フリー グレート
+full combo      フルコンボ
+clear           クリア
+fail            フェール
+
+
+
+F - Fail (Failed)
+"let's try that again..."
+"was that your first attempt?"
+"was that too difficult?"
+
+E - Erratic (0-60%, pass)
+E? (0-50%)
+"i'm surprised that was even a pass..."
+
+E- (50-52%)
+"better than an F...right?" / "Fよりましだね・・・"
+
+E (52-58%)
+"well... you're learning..."
+
+E+ (58-60%)
+"it's okay..."　/ "大丈夫よ・・・"
+
+D - Dizzy (60-70%)
+
+C - Cool
+
+B - Bold
+
+A- (Awesome)
+
+A (Awesome)
+
+A+ (Amazing)
+
+S- (Superb)
+
+S (Superb)
+
+S+ (Spectacular)
+
+SS (Super Spectacular)

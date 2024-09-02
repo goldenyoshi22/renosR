@@ -1,0 +1,106 @@
+The Non-Raw Format p0.1
+
+metadata - this is specific to lines so don't put title as the third line or something like that
+
+
+title = song123 
+//sets the title of the chart to "song123"
+
+subtitle = yeah357
+//sets the subtitle of the chart to "yeah357"
+
+audio = song123.wav
+//sets the audio that plays in the chart to "song123.wav"
+
+difficulty = 0 3 6 8 11 0
+//sets the difficulty number of beginner to 0, easy to 3, medium to 6, hard to 8, insane to 11, and nightmare to 0
+//basically, corresponds to difficulty numbers respectively [beginner, easy, medium, hard, insane, nightmare]
+
+preview = 53.100
+//sets where the song will preview play in the menu to 0:53.100
+
+volume = 80
+//sets the volume of the song to 80%
+
+bpm = 123
+//sets the base bpm of the chart to 123
+
+offset = -0.078
+//makes the song play its audio 0.078 seconds earlier
+//negative is earlier, and positive is later
+
+-----------------------------------------------------
+the chart
+
+commands:
+>start //starts the chart
+>end //ends the chart
+>bpm [num] //sets the bpm to [num] in the middle of the song
+>difficulty [num] //use before starting the chart, sets the difficulty it's writing on respectively [starts at 0 for beginner and ends at 5 for nightmare]
+>text [sample] //shows text reading [sample] at the middle-bottom of the screen
+
+1-6 for notes
+P to change it to purple
+C to change it back to red/blue
+there should be a space between notes but if you don't have one it can do multiple things at once
+
+
+example:
+
+song123
+by yeah357
+[on Insane 11 and there is also a Medium 6 that has no chart for some reason]
+
+[ ][ ][x][ ][ ][ ] - text at the middle-bottom saying "hi :P"
+[x][ ][ ][x][ ][ ]
+[ ][ ][ ][ ][x][x] - purple mode on
+[ ][x][ ][ ][ ][ ]
+[x][ ][ ][ ][ ][ ]
+
+is
+
+title = song123
+subtitle = yeah357
+audio = song123.wav
+difficulty = 0 0 6 0 11 0
+preview = 53.100
+volume = 80
+bpm = 123
+offset = -0.078
+
+>difficulty 4
+>start
+1 2 P56 14
+>text hi :P
+3
+>end
+
+
+
+
+
+
+
+renos raw chart format
+basically it's a huge array so surround everything in []
+so seperate all notes by commas like [1, 2, 3]
+
+1-6 for notes
+"purple" to change it to purple mode
+"notpurple" to make it not purple anymore
+["text", "sample"] to make it show text saying what you put in the sample at the middle-bottom
+put stuff in another [] to do multiple things at once
+
+
+
+example:
+
+[ ][ ][x][ ][ ][ ] - text at the middle-bottom saying "hi :P"
+[x][ ][ ][x][ ][ ]
+[ ][ ][ ][ ][x][x] - purple mode on
+[ ][x][ ][ ][ ][ ]
+[x][ ][ ][ ][ ][ ]
+
+=
+
+[1, 2, ["purple", 1, 2], [1, 5, 6], [["text", "hi :P"], 4]]

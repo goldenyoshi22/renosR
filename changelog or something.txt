@@ -1,9 +1,27 @@
 t = test
 p = public
 
-t0.0.1
-- add a menu with song selecting [done]
 
+a.b.c.d
+a = the new generation idk lol
+b = moderate or decently big update
+c = small update
+d = patches (new charts or bugfixes)
+
+
+mm/dd/yyyy
+
+
+t0.0.1 (5/16/2022)
+- add a menu with song selecting
+
+p0.0.1 (5/17/2022)
+- now public
+
+
+t0.1
+- add gameplay and the charts for tutorial v2 and boo
+- add stuff in settings
 
 
 
